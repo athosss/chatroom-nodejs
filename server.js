@@ -10,6 +10,7 @@ function send404(response) {
   response.end();
 }
 
+// 得到的
 function sendFile(response, filePath, fileContents) {
   response.writeHead(
     200, 
